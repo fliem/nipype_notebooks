@@ -1,2 +1,3 @@
+nipy
 nipype
 
