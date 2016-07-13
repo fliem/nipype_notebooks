@@ -36,6 +36,9 @@
 FROM ubuntu:15.04
 MAINTAINER Michael Notter <michaelnotter@hotmail.com>
 
+# Switch to root user for installation
+USER root
+
 # Preparations
 RUN ln -snf /bin/bash /bin/sh
 ARG DEBIAN_FRONTEND=noninteractive
@@ -158,6 +161,9 @@ RUN pip install -e git+https://github.com/nipy/nipype#egg=nipype
 RUN apt-get clean remove -y && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
     rm -rf /boot /media /mnt /opt /srv
+
+# Switch back to main user
+USER main
 
 # Switch working directory to /home
 WORKDIR /home
