@@ -4,11 +4,7 @@
 FROM miykael/nipype_env
 MAINTAINER Michael Notter <michaelnotter@hotmail.com>
 
-# Switch to root user
-USER root
-
-# Create main user and home folder
-RUN useradd -ms /bin/bash main
+# Change to main user and specify home folder
 USER main
 WORKDIR /home/main
 
