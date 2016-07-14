@@ -8,6 +8,4 @@ MAINTAINER Michael Notter <michaelnotter@hotmail.com>
 USER main
 WORKDIR /home/main
 
-#RUN find $HOME/notebooks -name '*.ipynb' -exec ipython trust {} \;
-
 ENV SHELL /bin/bash
