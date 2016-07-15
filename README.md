@@ -1,8 +1,8 @@
 # Nipype Tutorial Notebooks
 
-The Nipype tutorial notebooks run on [mybinder.org](http://mybinder.org/) and can be started by clicking on the following button: [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/miykael/nipype_notebooks)
+The Nipype tutorial runs on [mybinder.org](http://mybinder.org/) and can be started by clicking on the following button: [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/miykael/nipype_notebooks)
 
-The Dockerfile is based on the docker image under [miykael/nipype_basic](https://hub.docker.com/r/miykael/nipype_basic/).
+The Dockerfile that creates the nipype environment on mybinder is based on the docker image [miykael/nipype_basic](https://hub.docker.com/r/miykael/nipype_basic/).
 
 
 ## The Dataset
