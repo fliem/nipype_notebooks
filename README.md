@@ -1,6 +1,6 @@
 # Nipype Tutorial Notebooks
 
-The Nipype tutorial runs on [mybinder.org](http://mybinder.org/) and can be started by clicking on the following button: [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/miykael/nipype_notebooks)
+The Nipype tutorial runs on [mybinder.org](http://mybinder.org/) and can be started by clicking on the following button: [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/miykael/nipype_tutorial)
 
 The Dockerfile that creates the nipype environment on mybinder is based on the docker image [miykael/nipype_basic](https://hub.docker.com/r/miykael/nipype_basic/).
 
@@ -14,4 +14,4 @@ The dataset ds005 used for this tutorial was shortened to only two subjects, *su
 
 ## Feedback, Help & Support
 
-If you want to help us with this tutorial or have any questions, fell free to fork our repo [github.com/fliem/nipype_notebooks](https://github.com/fliem/nipype_notebooks) or interact with other contributors on the slack channel [brainhack.slack.com/messages/nipype/](https://brainhack.slack.com/messages/nipype/)
+If you want to help us with this tutorial or have any questions, fell free to fork our repo [github.com/miykael/nipype_tutorial](https://github.com/miykael/nipype_tutorial) or interact with other contributors on the slack channel [brainhack.slack.com/messages/nipype/](https://brainhack.slack.com/messages/nipype/)
