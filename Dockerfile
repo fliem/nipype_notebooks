@@ -8,7 +8,7 @@ MAINTAINER Michael Notter <michaelnotter@hotmail.com>
 USER root
 
 # Create main user and home folder
-RUN useradd -ms /bin/bash main
+#RUN useradd -ms /bin/bash main
 USER main
 WORKDIR /home/main
 
